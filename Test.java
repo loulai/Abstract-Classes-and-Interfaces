@@ -12,7 +12,6 @@ public class Test {
 		System.out.println(myBike.color);
 		System.out.println(myBike.horsepower + "\n");
 
-		
 		System.out.println("FourWheeler:");
 		System.out.println(myCar.numOfWheels);
 		System.out.println(myCar.color);
