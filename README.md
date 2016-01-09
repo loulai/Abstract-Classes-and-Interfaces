@@ -2,7 +2,8 @@ Interfaces vs. Abstract Classes
 =======
 Both interfaces and abstract classes are required for abstraction.
 
-Interfaces don't express something like ``A seabass is a type of fish and every fish can swim``. That's an abstract class' job. An interface simply expresses ``this thing can swim``.
+Abstract class: ``A seabass is a type of fish and every fish can swim``
+Interface: ``this thing can swim``
 
 Abstract classes define characteristics of an object. Interfaces define capabilites.
 
@@ -10,18 +11,18 @@ Abstract classes define characteristics of an object. Interfaces define capabili
 
 An interface is an empty shell. It contains empty method signatures that aren't implemented.
 
-The person writing the interface: *This thing should have these methods. It's up to you to fill it out.*
+The person writing the interface: *Here are some capabilities for some thing. It's up to you to fill out how it does it.*
 
 ###Abstract Classes
 An abstract class is very similar to an interface, but with something extra: you can define common behaviour and methods. When using an abstract class, you inherit methods that may or may not be already fleshed out.
 
-The person writing the abstract class: *This thing looks like this and I'm defining that they have commanilities, and I've left some blanks for you to flesh out.*
+The person writing the abstract class: *Here is a thing and it looks like this. I'm defining that they have commanilities, and I've left some blanks for you to flesh out.*
 
 
 Key Differences
 ---
-- Abstract classes are **extended**, interfaces are **implemented**
+- Abstract classes are **extended**, interfaces are **implemented**.
 
-- Interfaces only contain only empty method signatures and constants, whereas abstract classes can have those *and* **defined** methods.
+- A class can extend *one* abstract class, but can implement *many* interfaces.
 
-- A class can only extend *one* abstract class, whereas interfaces can implement multiple other interfaces.
+- Interfaces only contain empty method signatures and constants, whereas abstract classes can have those *and* **defined** methods.
