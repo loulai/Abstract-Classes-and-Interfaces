@@ -27,7 +27,7 @@ The person writing the abstract class: *Here is a thing and it looks like this. 
 
 - Interfaces only contain empty method signatures and constants, abstract classes can have those *as well as* **defined** methods.
 
-###When to Prefer Interfaces
+###When to Prefer Interfaces or Abstract Classes
 - If creating something that provides common functionality to unrelated classes, use an **interface**. 
 
 - If creating something for objects that are closely related in a hierachy, use an **abstract class**.
