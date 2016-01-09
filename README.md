@@ -1,2 +1,10 @@
-# Abstract-Classes-and-Interfaces
-Examples of how to use abstract classes and interfaces in Java
+Interfaces and Abstract Classes.. what's the difference?
+=======
+
+Similarities
+-----
+- Both are required for abstraction
+
+Differences
+----
+
